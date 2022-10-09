@@ -29,7 +29,7 @@
 
 .main_content {
     grid-area: main_content;
-    background-color: rgb(200,228,228);
+    background-color: rgb(300,228,228);
     border: 1px solid rgb(0,0,0);
 }
 .header_image img{
