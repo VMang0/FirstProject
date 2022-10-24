@@ -1,0 +1,8 @@
+.products_field{
+    margin: 130px auto;
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 20px;
+    row-gap: 40px;
+}

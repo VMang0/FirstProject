@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet');
+a{
+    color: black;
+    text-decoration: none;
+}
+.Header {
+    width: 1240px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 128px 379px 120px;
+    grid-template-areas:
+    "logo" "page_list" "icons_list";
+    column-gap: 305px;
+    padding: 0;
+
+}
+
+.logo {
+    grid-area: logo;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 600;
+
+    text-decoration-line: underline;
+    color: #222222;
+}
+
+.page_list .links {
+    width: 379px;
+    grid-area: page_list;
+    line-height: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.links li {
+    width: auto;
+    grid-area: link;
+    list-style: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.icons_list .icons {
+    width: 120px;
+    line-height: 40px;
+    grid-area: icons_list;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.icons li {
+    list-style: none;
+    height: 24px;
+}
+
+.icons_list .icons img {
+    height: 100%;
+    width: 100%;
+}

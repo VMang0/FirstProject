@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet');
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.main_page {
+    margin-top: 68px;
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 560px 680px;
+}
+
+
+.slogan {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    line-height: 70px;
+}
+
+.details_info {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.Search form {
+    padding-left: 5px;
+    margin-top: 30px;
+    width: 326px;
+    height: 48px;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.Search input {
+    border: none;
+    width: 286px;
+    height: 100%;
+    color: #999999;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.Search button {
+    background-color: #402F2C;
+    width: 32px;
+    height: 32px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+.Shop_Now {
+    margin-top: 60px;
+    width: 148px;
+    height: 56px;
+}
+
+.Shop_Now button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: #402F2C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.Shop_Now button:hover{
+    background-color: #F9F6F5;
+    border: 1px solid #402F2C;
+    color: #402F2C;
+}
+
+.main_page_image {
+}
+
+.main_page_image img {
+    width: 100%;
+}
